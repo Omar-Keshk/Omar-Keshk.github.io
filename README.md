@@ -16,10 +16,3 @@ Static site (HTML, CSS, JavaScript) hosted on GitHub Pages.
 - `contact.html`: email, GitHub, LinkedIn
 
 
-```
-
-Missing images are hidden automatically, but the pages look best with all of them.
-
-## Updating
-
-Edit the text inside each HTML file and commit to `main`. GitHub Pages redeploys within a few minutes.
