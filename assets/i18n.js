@@ -151,7 +151,7 @@
  },
 "An artist's impression of the ancient Library of Alexandria.": {"ar": "تصور فني للمكتبة القديمة في الإسكندرية.", "ru": "Художественная реконструкция древней Александрийской библиотеки."},
 "An illustrated map of ancient Alexandria with the Pharos island and its two harbours.": {"ar": "خريطة مصوّرة للإسكندرية القديمة تُظهر جزيرة فاروس وميناءيها.", "ru": "Иллюстрированная карта древней Александрии с островом Фарос и двумя гаванями."},
-"Alexandria across its eras, in one image.": {"ar": "الإسكندرية عبر عصورها في صورة واحدة.", "ru": "Александрия сквозь эпохи в одном изображении."},
+"Alexandria across its eras, in one image.": {"ar": "الإسكندرية عبر عصورها في صورة واحدة.", "ru": "Александрия сквозь эпохи в одном изображении."
  },
  "331 to 30 BC": {
   "ar": "331 إلى 30 ق.م",
@@ -549,7 +549,7 @@
   var box = document.createElement('div');
   box.className = 'lang-switch';
   box.setAttribute('role', 'group'); box.setAttribute('aria-label', 'Language');
-  [['ar', 'AR'], ['en', 'EN'], ['ru', 'RU']].forEach(function (p) {
+  [['ar', 'عربي'], ['en', 'EN'], ['ru', 'RU']].forEach(function (p) {
     var b = document.createElement('button');
     b.type = 'button'; b.textContent = p[1]; b.dataset.l = p[0];
     b.onclick = function () { apply(p[0]); };
