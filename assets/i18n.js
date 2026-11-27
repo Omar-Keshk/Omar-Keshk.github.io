@@ -549,7 +549,7 @@
   var box = document.createElement('div');
   box.className = 'lang-switch';
   box.setAttribute('role', 'group'); box.setAttribute('aria-label', 'Language');
-  [['ar', 'عربي'], ['en', 'EN'], ['ru', 'RU']].forEach(function (p) {
+  [['ar', 'عربي'], ['en', 'EN'], ['ru', 'Россия']].forEach(function (p) {
     var b = document.createElement('button');
     b.type = 'button'; b.textContent = p[1]; b.dataset.l = p[0];
     b.onclick = function () { apply(p[0]); };
