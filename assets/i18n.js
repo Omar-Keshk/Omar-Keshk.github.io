@@ -1,4 +1,4 @@
-/* Arabic / Russian / English switcher. Add <script src="assets/i18n.js"></script> before </body> on every page. */
+/* Arabic / Russian / English switcher. */
 (function () {
   var T = {
  "About": {
