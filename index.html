@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omar Ahmed Keshk | Nuclear Engineer &amp; Researcher</title>
+  <meta name="description" content="Personal academic website of Omar Ahmed Keshk, nuclear engineer and researcher working on reactor safety, safeguards, radiation detection and AI for nuclear applications." />
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="assets/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background:
+        radial-gradient(circle at 16% 12%, rgba(85, 167, 255, 0.20), transparent 30%),
+        radial-gradient(circle at 90% 35%, rgba(14, 165, 164, 0.14), transparent 30%),
+        linear-gradient(135deg, #f8fafc, #eaf1f8);
+      color: #0f172a;
+    }
+
+    .site-header {
+      background: linear-gradient(135deg, #071225, #0b1b32);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: none;
+    }
+
+    .nav-links a {
+      color: #b6c2d4;
+    }
+    
+    .nav-links a:hover {
+      color: #ffffff;
+    }
+
+    .content-panel {
+      background:
+        radial-gradient(circle at 16% 12%, rgba(85, 167, 255, 0.18), transparent 32%),
+        radial-gradient(circle at 92% 35%, rgba(14, 165, 164, 0.12), transparent 32%),
+        linear-gradient(135deg, #f8fafc, #eaf1f8);
+    }
+
+    .section-heading h2,
+    .research-text h3,
+    .small-heading h3,
+    .education-content p {
+      color: #0f172a;
+    }
+
+    .section p,
+    .research-text p,
+    .history-text p,
+    .image-caption {
+      color: #334155;
+    }
+  
+    .lead,
+    .history-text .lead {
+      color: #0f172a !important;
+    }
+
+    .education-card,
+    .research-feature,
+    .research-feature.reverse,
+    .history-feature,
+    .history-feature.history-vertical,
+    .slider-window {
+      background: rgba(255, 255, 255, 0.78);
+      border: 1px solid rgba(15, 23, 42, 0.12);
+      box-shadow: 0 22px 50px rgba(15, 23, 42, 0.12);
+    }
+
+    .education-content li {
+      color: #334155;
+    }
+
+    .education-content strong {
+      color: #2563eb;
+    }
+
+    .research-text strong,
+    .history-text strong {
+      color: #0f172a;
+    }
+  
+    .research-image,
+    .history-image {
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid rgba(15, 23, 42, 0.10);
+    }
+
+    .slide-caption {
+      background: linear-gradient(90deg, rgba(8, 36, 82, 0.96), rgba(26, 94, 178, 0.88));
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .slide-caption span,
+    .slide-caption strong {
+      color: #ffffff;
+    }
+
+    .profile-panel {
+      background: linear-gradient(180deg, rgba(7, 18, 37, 0.98), rgba(8, 36, 82, 0.96), rgba(26, 94, 178, 0.82));
+      border-right: 1px solid rgba(255, 255, 255, 0.14);
+      box-shadow: 18px 0 45px rgba(15, 23, 42, 0.18);
+    }
+    
+    .profile-panel h1 {
+      color: #ffffff;
+    }
+
+    .profile-panel .pronouns {
+      color: #b6c2d4;
+    }
+
+    .profile-panel h2 {
+      color: #55a7ff;
+    }
+  
+    .publication { background: rgba(255, 255, 255, 0.78); border: 1px solid rgba(15, 23, 42, 0.12); box-shadow: 0 22px 50px rgba(15, 23, 42, 0.12); }
+    .publication h3 { color: #0f172a; }
+    .publication p { color: #334155; }
+    .history-feature.history-vertical .history-image img { width: 100%; max-width: 280px; margin: 0 auto; display: block; border-radius: 50%; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo image-logo" href="index.html" aria-label="Omar Ahmed Keshk homepage">  
+        <img src="assets/nav-icon.png" alt="Omar Ahmed Keshk logo">
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="research.html">Research Projects</a>
+        <a href="outputs.html">Research Outputs</a>
+        <a href="history.html">History of Alexandria</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main id="home" class="layout">
+    <aside class="profile-panel">
+      <div class="profile-photo-wrap">
+        <img class="profile-photo" src="assets/profile.jpg" alt="Omar Ahmed Keshk" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="photo-fallback">OK</div>
+      </div>
+      <h1>Omar<br>Keshk</h1>
+      <p class="pronouns">Nuclear Engineer</p>
+      <h2>Researcher</h2>
+      <div class="social-links" aria-label="Profile links">
+        <a href="https://github.com/Omar-Keshk" target="_blank" rel="noopener" title="GitHub">GH</a>
+        <a href="https://linkedin.com/in/OmarA-Tawfik" target="_blank" rel="noopener" title="LinkedIn">in</a>
+        <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener" title="ORCID">iD</a>
+        <a href="https://www.researchgate.net/profile/Omar-Keshk" target="_blank" rel="noopener" title="ResearchGate">RG</a>
+        <a href="mailto:Omar.A.Tawfik@outlook.com" title="Email">@</a>
+      </div>
+    </aside>
+
+    <section class="content-panel">
+
+      <section id="about" class="section intro-section">
+        <div class="section-heading"><span class="icon">▣</span><h2>Summary</h2></div>
+        <p class="lead">My work focuses on nuclear safety, safeguards and security, with growing interest in radiation detection and AI for nuclear applications. I use simulation and data-driven tools, such as PCTRAN, HotSpot, GEANT4 and machine learning, to study how nuclear systems behave under normal and accident conditions.</p>
+        <p>Beyond research, I am passionate about the history of Alexandria, my home city, and how its long scientific tradition connects to modern nuclear science.</p>
+        <div class="action-row"><a class="button primary" href="Omar_Cv.pdf" target="_blank" rel="noopener">Download CV</a></div>
+      </section>
+
+      <section class="section news-section" id="education">
+        <div class="section-heading"><span class="icon">🎓</span><h2>Education</h2></div>
+        <div class="education-grid">
+          <article class="education-card">
+            <img class="school-logo" src="assets/alexandria.png" alt="Alexandria University logo" onerror="this.style.display='none'">
+            <div class="education-content"><strong>Alexandria University</strong><ul><li>M.Sc. in Nuclear and Radiation Engineering</li><li>Distinction, GPA 3.88/4.00</li></ul><p>Expected 2027</p></div>
+          </article>
+          <article class="education-card">
+            <img class="school-logo" src="assets/alexandria.png" alt="Alexandria University logo" onerror="this.style.display='none'">
+            <div class="education-content"><strong>Alexandria University</strong><ul><li>B.S. in Nuclear and Radiation Engineering</li></ul><p>July 2025</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <div class="section-heading"><span class="icon">⌬</span><h2>Research Themes</h2></div>
+        <div class="research-feature research-vertical">
+          <div class="research-text">
+            <div class="research-title-row"><span class="card-icon">00</span><h3>Safety, Safeguards and Detection for Nuclear Systems</h3></div>
+            <p>My research interests span reactor safety, nuclear safeguards and security, and radiation detection. I am interested in tools that help assess risk, understand accident consequences, and improve how radiation is measured and imaged.</p><p>This work combines simulation, Monte Carlo methods and, increasingly, machine learning.</p>
+          </div>
+        </div>
+        <div class="research-feature research-vertical">
+          <div class="research-text">
+            <div class="research-title-row"><span class="card-icon">01</span><h3>Reactor Safety &amp; Accident Analysis</h3></div>
+            <p>As a research assistant at Alexandria University, I work on nuclear safety, safeguards and security, including PCTRAN simulations of postulated accident scenarios and their environmental impact.</p><p>My thesis work combines HotSpot with machine learning for an SMR-PWR case study at El Negila.</p>
+          </div>
+        </div>
+        <div class="research-feature research-vertical">
+          <div class="research-text">
+            <div class="research-title-row"><span class="card-icon">02</span><h3>Radiation Detection &amp; Imaging</h3></div>
+            <p>During my research internship at JINR in Dubna, I worked on a micro-SPECT system based on Timepix detectors, using coded-aperture collimation, iterative 3D reconstruction and GEANT4 Monte Carlo simulations.</p>
+          </div>
+        </div>
+        <div class="research-feature research-vertical">
+          <div class="research-text">
+            <div class="research-title-row"><span class="card-icon">03</span><h3>AI for Nuclear Applications</h3></div>
+            <p>My special studies thesis, <em>Applications of AI in Nuclear Sectors</em>, explored how AI is used across the nuclear sector. I continue this direction with Python machine-learning tools such as scikit-learn and TensorFlow.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="section-heading"><span class="icon">▤</span><h2>Research Highlights</h2></div>
+        <div class="publication-list"><article class="publication"><h3>Advancements in Radiation Protection: A Comprehensive Investigation into Dosimetry, Shielding Strategies, and Source Detection Methodologies</h3><p><strong>JINR Interest Journal</strong>, December 2023.</p></article><article class="publication"><h3>AYSS-2025 Conference</h3><p><strong>JINR, Dubna</strong>, October 27, 2025.</p></article><article class="publication"><h3>Severe Accident Management Strategies and Containment Performance in Nuclear Power Plants</h3><p>Poster, <strong>16th UGRF / 4th Egyptian Junior Researcher Competition</strong>, Nile University, August 2023.</p></article></div>
+        <div class="action-row"><a class="button primary" href="outputs.html">All research outputs</a></div>
+      </section>
+
+      <section id="history" class="section">
+        <div class="section-heading"><span class="icon">𓉴</span><h2>Connecting the History of Alexandria</h2></div>
+        <div class="history-feature history-vertical">
+          <div class="history-image"><img src="assets/alexandria-emblem.jpg" alt="Emblem of Alexandria showing the Pharos lighthouse, a classical head and ancient columns" onerror="this.style.display='none'"></div>
+          <div class="history-text">
+            <p class="lead">Beyond my research, I am drawn to the history of Alexandria, the city where I study and live. Founded in 331 BC, it hosted the ancient Library and Museum, and today it is home to the Bibliotheca Alexandrina.</p>
+            <p>I see Alexandria's scientific heritage as part of the same story as modern nuclear science. My history page follows the city across nine eras, from its foundation to the present day.</p>
+            <div class="action-row"><a class="button primary" href="history.html">Read the history</a></div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Omar Ahmed Keshk.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
